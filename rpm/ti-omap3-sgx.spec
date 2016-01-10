@@ -189,8 +189,6 @@ fi
 %defattr(-,root,root,-)
 # >> files
 %config %{_sysconfdir}/udev/rules.d/10-pvrsrvkm.rules
-%{_libdir}/libIMGegl_r12*.so
-%ghost %{_libdir}/libIMGegl.so
 %{_libdir}/libPVRScopeServices_r12*.so
 %ghost %{_libdir}/libPVRScopeServices.so
 %{_libdir}/libglslcompiler_r12*.so
@@ -199,8 +197,6 @@ fi
 %ghost %{_libdir}/libpvr2d.so
 %{_libdir}/libpvrPVR2D_BLITWSEGL_r12*.so
 %ghost %{_libdir}/libpvrPVR2D_BLITWSEGL.so
-%{_libdir}/libpvrPVR2D_DRI2WSEGL_r12*.so
-%ghost %{_libdir}/libpvrPVR2D_DRI2WSEGL.so
 %{_libdir}/libpvrPVR2D_FLIPWSEGL_r12*.so
 %ghost %{_libdir}/libpvrPVR2D_FLIPWSEGL.so
 %{_libdir}/libpvrPVR2D_FRONTWSEGL_r12*.so
