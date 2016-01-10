@@ -205,8 +205,6 @@ fi
 %ghost %{_libdir}/libpvrPVR2D_FLIPWSEGL.so
 %{_libdir}/libpvrPVR2D_FRONTWSEGL_r12*.so
 %ghost %{_libdir}/libpvrPVR2D_FRONTWSEGL.so
-%{_libdir}/libpvrPVR2D_X11WSEGL_r12*.so
-%ghost %{_libdir}/libpvrPVR2D_X11WSEGL.so
 %{_libdir}/libsrv_um_r12*.so
 %ghost %{_libdir}/libsrv_um.so
 %attr(755,root,root) %{_sbindir}/pvrsrvinit_r*
